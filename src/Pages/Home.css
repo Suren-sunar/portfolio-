@@ -1,0 +1,50 @@
+Define variables for reuse
+root{
+    --main-color: rgb(29, 29, 42);
+    --text-color: whitesmoke;
+  }
+  
+  .suren {
+    color: var(--text-color);
+  }
+  
+  .hi {
+    color: var(--text-color);
+    margin-top: 40px;
+  }
+  
+ 
+  .homeimg {
+    /* max-width: 80vh; */
+    /* margin-top: 30px; */
+    border-radius: 30px;
+    /* margin-bottom: 70px; */
+ width: 100%;
+ object-fit: cover;   
+}
+    
+.Typewriter{
+    font-size: 40px;
+    font-weight: bold;
+    
+
+}  
+    
+.wrapper{
+  
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+section{
+  margin-bottom: 7rem;
+  overflow: hidden;
+}
+  
+p{
+  
+  font-size: 3rem;
+  
+  font-family: 'Arial Narrow Bold', sans-serif;
+  
+}
