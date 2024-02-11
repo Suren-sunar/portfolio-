@@ -6,7 +6,7 @@
 .skill-image  img{
     width: 100px; 
     height: auto;
-    margin: 10px;
+    margin: 100px;
    
   }
   
@@ -36,7 +36,7 @@
   .skill-image img {
       width: 80px; 
       height: auto;
-      margin-left: 65px;
+      margin: 50px;
      
        
   }

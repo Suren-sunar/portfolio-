@@ -41,14 +41,9 @@ button:hover {
     justify-content: right;
 }
 .card{
-    height:550px ;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     transition:0.3s all ease;
-    /* backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); */
-    
+  
     
 }
 .card:hover{
@@ -61,6 +56,30 @@ img.card-img-top {
 }
 
 @media (max-width: 35em) {
+    
+    .card {
+        height: auto;
+        margin: 3rem;
+        background-color: rgb(29, 29, 42);
+        border: 2px double purple;
+    }
+    .card-img-top {
+        height: 250px; 
+    }
+    .card-title {
+        font-size: 16px; 
+    }
+  
+    .col-md-6.live-btn {
+        text-align: center; 
+    }
+    img.card-img-top{
+        height: 250px;
+    }
+}
+
+
+@media (max-width: 50em) {
     
     .card {
         height: auto;
