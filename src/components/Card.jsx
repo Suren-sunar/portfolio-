@@ -10,7 +10,7 @@ const Card = ({ Title, Body, image, Github, Live }) => {
         <p className="card-text">{Body}</p>
         <div className="git-btn">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 git-btn">
               <a target="_blank" href={Github}>
                 <button>Github</button>
               </a>
