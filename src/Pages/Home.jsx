@@ -15,7 +15,7 @@ export const Home = () => {
               <Typewriter
                 className="typewriter"
                 options={{
-                  strings: ["Front End Developer"],
+                  strings: ["Front End React Developer"],
                   autoStart: true,
                   loop: true,
                   deleteSpeed: 100,
